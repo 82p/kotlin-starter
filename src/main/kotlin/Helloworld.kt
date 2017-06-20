@@ -1,11 +1,8 @@
 /**
  * Created by HNYIns13 on 2017/06/21.
  */
-class Helloworld(greeting: String) {
+class Helloworld(val greeting: String) {
     //コンストラクタが色々かけるみたい
-
-    val greeting = greeting
-
     init {
         println(greeting)
     }
